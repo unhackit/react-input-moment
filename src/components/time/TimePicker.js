@@ -39,6 +39,7 @@ export default class extends React.Component {
               className="im-slider"
               xmin={0}
               xmax={59}
+              xstep={5}
               x={mom.minute()}
               onChange={this.changeMinutes.bind(this)}
             />
